@@ -170,3 +170,18 @@ input[type=password]{
 .button2 a:hover{
 	color: #6a9729;
 }
+@media screen and (max-width: 1024px){
+	.matepro img{
+		width: 80%;
+	}
+	header{
+		float: none;
+	}
+	form{
+		width: 50%;
+		margin-top: 0;
+		justify-content: center;
+
+	}
+
+}
