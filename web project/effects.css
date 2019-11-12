@@ -1,17 +1,18 @@
+
 *{
 	margin: 0px;
 	border: 0px;
 	box-sizing: border-box;
 }
 body{
-	background:#dbdee9;
+	background-color: #ffffff !important;
 }
 
 header {
 	display: flex;
 	width: 100%;
 	margin: auto;
-	background-color: #b0db9e;
+	background-color: #320ef1;
 	height: 40px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -24,11 +25,14 @@ header {
 	font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	color: #6c6a59;
-	background-color: #b0db9e;
+	color: #320ef1;
+	background-color: #320ef1;
 	float: left;
 	display: block;
 
+}
+.logout a:hover{
+	color: #add229 !important;
 }
 .nav-links{
 	display: flex;
@@ -41,6 +45,7 @@ header {
 .nav-link:hover{
 	background-color: #add229;
 	padding: 9px;
+		transition-duration:0.4s;
 	
 }
 .nav-link a:hover{
@@ -54,7 +59,7 @@ nav {
 	list-style: none;
 }
 .nav-link {
-	color: #5f5f79;
+	color: white;
 	font-size: 18px;
 	text-decoration: none;
 }
@@ -71,8 +76,8 @@ footer{
 	font-size: 20px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	color: #6c6a59;
-	background-color: #b0db9e;
+	color: white;
+	background-color: #320ef1;
 	width: 100%;
 	justify-content: center;
 	display: flex;
@@ -115,7 +120,7 @@ footer{
 .login1{
 	float: right;
 	margin-right: 280px;
-	margin-top: 150px;
+	margin-top: 110px;
 
 }
 label{
@@ -151,18 +156,17 @@ label{
 	transition-duration:0.4s;
 	text-align: center;
 }
+
 .button2{
 	height: 30px;
 	width: 80px;
 	background-color: #9e49ce;
-	margin-left: 95px;
+	margin-left: 140px !important;
 	justify-content: center;
-	margin-top: 5px;
 	border-radius: 4px;
 	-moz-transition-duration: 0.4s;
 	-webkit-transition-duration:0.4s;
 	transition-duration:0.4s;
-	display: inline-block;
 	text-align: center;
 }
 
@@ -192,7 +196,7 @@ label{
 }
 .button1 a{
 	font-family: 'Montserrat', sans-serif;
-		color:white;
+		color:white !important;
 		text-align: center;
 }
 .button2 a{
@@ -206,7 +210,7 @@ label{
 	color: white;
 }
 .button3:hover{
-	background-color: #9be8f2;
+	background-color: black !important;
 }
 .button1:hover{
 	background-color: #9be8f2;
